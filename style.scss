@@ -1,0 +1,19 @@
+@import "./partials/mixin";
+@import "./partials/variables";
+
+.header{
+    @include header;
+}
+.content{
+    background-image: url($imagePath);
+    background-size: cover;
+    background-position: center;
+    //@include content;
+}
+
+.headshot {
+    float: right;
+}
+.body {
+    
+}
