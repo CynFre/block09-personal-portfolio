@@ -4,16 +4,18 @@
 .header{
     @include header;
 }
+
 .content{
     background-image: url($imagePath);
     background-size: cover;
     background-position: center;
-    //@include content;
+    @include div;
 }
 
 .headshot {
     float: right;
 }
-.body {
-    
+.mission, .inspiration {
+    border: 3px solid blue;
+    margin: 100px 75px 150px 50px;
 }

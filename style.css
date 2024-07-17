@@ -4,16 +4,24 @@
   align-items: center;
   background-color: lightblue;
   color: blue;
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: 0 5%;
 }
 
 .content {
   background-image: url("./images/background.jpg");
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
 }
 
 .headshot {
   float: right;
+}
+
+.mission, .inspiration {
+  border: 3px solid blue;
+  margin: 100px 75px 150px 50px;
 }/*# sourceMappingURL=style.css.map */

@@ -4,11 +4,14 @@
     align-items: center;
     background-color: lightblue;
     color: blue;
-    margin: 0;
-    padding: 0;
+    margin: auto;
+    padding: 0 5%;
 }
-@mixin content{
+@mixin div{
+    display: flex;
+    //flex-direction: column;
+    justify-content: space-between;
+    //align-items: center;
     margin: 0;
-    background-size: cover;
-    background-position: center;
+    
 }
