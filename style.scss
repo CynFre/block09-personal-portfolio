@@ -6,16 +6,27 @@
 }
 
 .content{
-    background-image: url($imagePath);
+    background-image: url($blueImagePath);
     background-size: cover;
     background-position: center;
-    @include div;
+}
+h1{
+    color: $textColor1;
+    font-size: 3vw;
+    text-align: center;
 }
 
 .headshot {
-    float: right;
+    float: left;
+    border-top-left-radius: 15px;
+    border: 5px solid black;
 }
-.mission, .inspiration {
+.mission {
     border: 3px solid blue;
     margin: 100px 75px 150px 50px;
+}
+.inspiration {
+    border: 3px solid blue;
+    margin: 100px 75px 500px 50px;
+
 }
