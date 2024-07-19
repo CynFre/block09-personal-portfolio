@@ -5,28 +5,73 @@
     @include header;
 }
 
+.pageLinks{
+    @include pageLinks;
+}
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    background-color: white;
+    text-decoration: underline;
+}
+a:current {
+    color: white;
+    text-decoration: underline;
+}
+
 .content{
     background-image: url($blueImagePath);
     background-size: cover;
     background-position: center;
+    align-content: flex-end;
 }
 h1{
     color: $textColor1;
     font-size: 3vw;
     text-align: center;
 }
-
+h2{
+    padding: 50px;
+}
 .headshot {
-    float: left;
-    border-top-left-radius: 15px;
+    float: right;
     border: 5px solid black;
+    border-style: double;
+    margin: 0px 15px 300px 25px;
+    padding: 25px; 
 }
 .mission {
-    border: 3px solid blue;
-    margin: 100px 75px 150px 50px;
+    clear: left;
+    padding: 50px;
+    margin: 100px 75px 250px 50px;
 }
 .inspiration {
-    border: 3px solid blue;
-    margin: 100px 75px 500px 50px;
-
+    clear: left;
+    padding: 10px ;
+}
+.quote{
+    font-family: cursive;
+}
+.baker, .gardener, .software{
+    display: inline-block;
+    border: 3px solid;
+    margin: 25px;
+    
+}
+.bakerText{
+    display: inline-block;
+}
+.footer {
+    @include footer;
 }

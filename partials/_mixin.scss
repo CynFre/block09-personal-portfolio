@@ -2,16 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: large;
     background-color: lightblue;
     color: blue;
     margin: auto;
     padding: 0 5%;
 }
-@mixin div{
+@mixin footer {
     display: flex;
-    //flex-direction: column;
-    justify-content: space-between;
-    //align-items: center;
-    margin: 0;
-    
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+}
+@mixin pageLinks {
+    a:link color blue;
+    a:visited color green;
+    a:hover color hotpink;
+    a:active color white;
 }
