@@ -5,18 +5,27 @@
     font-size: large;
     background-color: lightblue;
     color: blue;
-    margin: auto;
+    margin: 0%;
     padding: 0 5%;
+}
+@mixin pageLinks {
+    a:link {color: blue; text-decoration: underline;}
+    a:visited {color: green; text-decoration: none;}
+    a:hover {color: hotpink; text-decoration: none;}
+    a:active {color: white; text-decoration: none;}
+}
+@mixin background {
+    background-image: url($blueImagePath);
+    background-size: cover;
+    background-position: center; 
+    margin: 0%;
 }
 @mixin footer {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: lightblue;
+    width: 100%;
+    margin: 0%;
 }
-@mixin pageLinks {
-    a:link color blue;
-    a:visited color green;
-    a:hover color hotpink;
-    a:active color white;
-}
+
