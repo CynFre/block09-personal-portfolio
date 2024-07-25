@@ -67,21 +67,25 @@ h3 {
 .inspiration {
   clear: left;
   padding: 50px;
-  margin: 100px 0px 0px 250px;
+  margin: 100px 0px 0px 200px;
 }
 
 .quote {
   font-family: cursive;
 }
 
-.baker, .gardener, .software {
-  display: inline-block;
-  border: 3px solid;
-  margin: 25px;
+.baker, .gardener, .manager {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 3px solid blue;
+  border-radius: 15px;
+  padding: 25px;
+  margin: 25px 25px 0px 25px;
 }
 
-.bakerText {
-  display: inline-block;
+.text {
+  font-weight: bold;
 }
 
 .footer {
