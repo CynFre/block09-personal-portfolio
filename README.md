@@ -1,6 +1,6 @@
 # block09-personal-portfolio
 Repository for Personal Portfolio project.<br>
-This project will include: <br.>
+This project will include: <br>
 a persistent top navigation bar, <br>
 a homepage,<br>
  an 'About me' page and <br>
