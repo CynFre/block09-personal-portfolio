@@ -46,13 +46,21 @@ h3 {
 .quote{
     font-family: cursive;
 }
-.baker, .gardener, .manager {
-    @include divContent
-}
 .text {
     font-weight: bold;
 }
-
+.baker, .gardener, .manager {
+    @include sectionContent;
+}
+.portfolio {
+    @include portfolio;
+}
+.zoo, .produce, .books {
+    @include sectionContent2;
+}
+.portfolioText {
+    padding: 0px 300px;
+}
 .footer {
     @include footer;
 }
